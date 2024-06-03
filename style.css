@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.todo-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 540px;
+}
+.todo-container h1 {
+    text-align: center;
+    font-size: 24px;
+}
+.new-todo {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.new-todo input {
+    background: transparent;
+    border: none;
+    color: white;
+    flex-grow: 1;
+    padding: 5px;
+    outline: none;
+}
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.todo-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.fa-solid {
+    margin-left: 220px;
+    cursor: pointer;
+    &:hover {
+        color: black;
+    }
+}
+.todo-item input {
+    margin-right: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filters button {
+    background: none;
+    border: none;
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#addbtn {
+    padding: 8px 12px;
+    border-radius: 30px;
+    border: none;
+    background-color: #4a00e0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.check {
+    margin-left: 350px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid darkblue;
+    padding: 8px 10px;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    &:hover {
+        background-color: #4a00e0;
+    }
+}
